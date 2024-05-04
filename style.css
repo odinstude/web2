@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: #f9faf8;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #333; /* Light black background color */
+    color: #fff; /* Text color for better contrast */
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Aligns content vertically within the hero section */
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    flex: 1; /* Allows the title to grow and shrink to fill available space */
+    margin-right: 20px; /* Adds some space between title and image */
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    flex: 1; /* Allows the content to grow and shrink to fill available space */
+    margin-bottom: 0; /* Removes bottom margin for better alignment */
+  }
+  
+  .hero img {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: 200px;
+  }
+  
+  .hero button {
+    background-color: #3b3da0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .info {
+    margin-top: 40px;
+  }
+  
+  .info h2 {
+    font-size: 48px
+}  
+
+  .info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info p {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+   
+  }
+
+  .info-boxes {
+    display: flex; /* Makes the info boxes display horizontally in a row */
+    flex-wrap: wrap; /* Allows boxes to wrap onto multiple lines if needed */
+    margin-top: 20px; /* Adds some space above the boxes */
+  }
+  
+  .info-box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px; /* Adds space between each box */
+    width: calc(25% - 20px); /* Calculates width for four boxes with margins */
+    text-align: center; /* Centers the content within each box */
+  }
+
+  
+  blockquote {
+    font-style: italic; /* Sets the quote text to italic */
+    border-left: 5px solid #ddd; /* Adds a left border for visual separation */
+    padding-left: 20px; /* Creates space between the border and the text */
+    margin: 0; /* Removes default margins for better layout control */
+  }
+
+ 
+  blockquote p {
+    font-size: 1.2em; /* Adjusts the quote text size if needed */
+    line-height: 2.5; /* Increases line spacing for better readability */
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  blockquote footer {
+    font-weight: bold; /* Makes the author text bold */
+    margin-top: 10px; /* Adds some space between the quote and author */
+    text-align: right; /* Aligns the author text to the right side */
+  }
+
+  .quote {
+    background-color: #f1f1f1;
+  }
+
+  .call-to-action {
+    background-color: #3b3da0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+  }
+
+  footer {
+    background-color: #b3a8a8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .call-to-action button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-self: left;
+  }
